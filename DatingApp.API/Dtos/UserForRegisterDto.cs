@@ -4,6 +4,10 @@ namespace DatingApp.API.Dtos
 {
     public class UserForRegisterDto
     {
+        // [Required]
+        // [EmailAddress]
+        // public string Email { get; set; }
+
         [Required]
         public string Username { get; set; }
         

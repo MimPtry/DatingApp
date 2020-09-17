@@ -4,6 +4,8 @@ namespace DatingApp.API.Models
     {
         public int Id { get; set; }
 
+        // public string email { get; set; }
+
         public string Username { get; set; }
 
         public byte[] PasswordHash { get; set; }
